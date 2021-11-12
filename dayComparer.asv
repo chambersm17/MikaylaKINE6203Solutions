@@ -1,0 +1,15 @@
+function [gains] = dayComparer(SubjectID,DayA,DayB)
+%UNTITLED10 Summary of this function goes here
+%   Detailed explanation goes here
+
+isoGains = find(DayB > DayA)
+gains = SubjectID(isoGain
+
+% if (DayB > DayA)
+%     gains = SubjectID;
+  
+end
+
+
+end
+
